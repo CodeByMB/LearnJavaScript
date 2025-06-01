@@ -172,24 +172,117 @@
     //         Arrays         //
     //------------------------//
 
-    //To much work put it in an array!
-    const friend1 = 'Michael';
-    const friend2 = 'Steven';
-    const friend3 = 'Peter';
+    // //To much work put it in an array!
+    // const friend1 = 'Michael';
+    // const friend2 = 'Steven';
+    // const friend3 = 'Peter';
 
-    //Arrays:
-    //More common to use the brackets. then example 2
-    const friends = ['Michael', 'Steven', 'Peter'];
-    console.log(friends);
+    // //Arrays:
+    // //More common to use the brackets. then example 2
+    // const friends = ['Michael', 'Steven', 'Peter'];
+    // console.log(friends);
 
-    //Example 2:
-    const years = new Array(1991, 1984, 2008, 2020);
+    // //Example 2:
+    // //const years = new Array(1991, 1984, 2008, 2020);
 
-    console.log(friends[0]);
+    // console.log(friends[0]);
 
-    //get number of amount in array
-    console.log(friends.length);
+    // //get number of amount in array
+    // console.log(friends.length);
 
-    console.log(friends[friends.length - 1]);
+    // console.log(friends[friends.length - 1]);
 
-    friends[2] = 'Jay'
+    // //You can modify a const variable like this example underneath.
+    // friends[2] = 'Jay'
+    // console.log(friends);
+
+    // //This will not work because we can't reassign a const variable.
+    // //friends = ['Bob', 'Alice']; 
+
+    // const d = new Date();
+    // let year = d.getFullYear();
+    // const firstName = 'Maikel';
+    // const lastName = 'Beernink';
+    // const birthYear = 1992;
+    // const age = year - birthYear;
+    // const job = 'Full stack developer';
+
+
+    // const maikel = [firstName, lastName, age, job, friends];
+
+    // console.log(maikel)
+
+    // //exercise:
+    // const calcAge = function (birthYear) {
+    //     return year - birthYear;
+    // }
+
+    // const years = [1990, 1967, 2002, 2010, 2018];
+    
+    // const age1 = calcAge(years[0]);
+    // const age2 = calcAge(years[1]);
+    // const age3 = calcAge(years[years.length - 1]);
+    // console.log(age1, age2, age3);
+
+    // const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
+    // console.log(ages);
+    // const friends = ['Michael', 'Steven', 'Peter'];
+
+    // //Add elements
+    // const newLength = friends.push('Jay');
+
+    // console.log(friends);
+    // console.log(newLength);
+
+    // friends.unshift('John');
+    // console.log(friends);
+
+    // //remove elements
+    // //Pop removes the last element in the array.
+    // const popped = friends.pop();
+    // console.log(popped);
+    // console.log(friends);
+
+    // //remove first element from the array:
+    // friends.shift();
+    // console.log(friends);
+
+    // //In which position is the element in the array
+    // console.log(friends.indexOf('Steven'));
+
+    // //Return true if the element is in the array or else false
+    // console.log(friends.includes('Steven'));
+    // console.log(friends.includes('Henk'));
+
+    // if(friends.includes('Peter')){
+    //     console.log('You have a friend called peter');
+    // }
+
+    //------------------------//
+    //       Challenge 2      //
+    //------------------------//
+
+    //My code
+    // const bills = [125, 555, 44];
+    // function calcTip(bill){
+    //     if (bill >= 50 && bill <= 300) {
+    //         return bill * 0.15;
+    //     } else {
+    //         return bill * 0.20;
+    //     }
+    // }
+    // const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+    // console.log(tips);
+    // const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+    // console.log(total);
+
+    //Jonas code:
+    // const calcTip = function(bill) {
+    //     return bill >= 50 && bill <= 300 ? bill *0.15 : bill * 0.20;
+    // }
+
+    // const bills = [125, 555, 44];
+    // const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+    // console.log(bills, tips);
+    // const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+    // console.log(totals);
