@@ -172,6 +172,8 @@
     //         Arrays         //
     //------------------------//
 
+    //Use Arrays for structured data.
+
     // //To much work put it in an array!
     // const friend1 = 'Michael';
     // const friend2 = 'Steven';
@@ -290,5 +292,119 @@
     //------------------------//
     //         Objects        //
     //------------------------//
+
+    //Key: value pair,
+    //Use object for more unstructed data.
+
+    // const maikel = {
+    //     firstName: 'Maikel',
+    //     lastName: 'Beernink',
+    //     age: 2025 - 1992,
+    //     job: 'Full stack developer',
+    //     friends: ['Michael', 'Peter', 'Steven']
+    // };
+
+    //Dot vs Bracket Notation
+
+    // const maikel = {
+    //     firstName: 'Maikel',
+    //     lastName: 'Beernink',
+    //     age: 2025 - 1992,
+    //     job: 'Full stack developer',
+    //     friends: ['Michael', 'Peter', 'Steven', 'Nita']
+    // };
+    
+    //The DOT notation:
+    // console.log(maikel.lastName);
+
+    //The Bracket notation:
+    // console.log(maikel['lastName']);
+
+    // const nameKey = 'Name';
+
+    // console.log(maikel['first' + nameKey]);
+    // console.log(maikel[`last${nameKey}`]);
+
+    //when to use:
+    //Dot: Always unless ...
+    //Bracket: Only when you need something like below:
+    //const interestedIn = prompt(`What do you want to know about Maikel? Choost between firstName, lastName, age, job and friends.`);
+    
+    // if(maikel[interestedIn]) {
+    //     console.log(maikel[interestedIn]);
+    // } else {
+    //     console.log(`Dont have that information!`)
+    // }
+
+    // maikel.location = 'Rotterdam';
+    // maikel['twitter'] = '@CodeByMB';
+    // console.log(maikel);
+
+    //challenge:
+    // "maikel has 3 friends and his best friend is called Michael"
+
+    // console.log(maikel.firstName, `has ${maikel.friends.length} friends, and his best friend is called `, maikel.friends[0]);
+
+    //Object methods
+
+    // const maikel = {
+    //     firstName: 'Maikel',
+    //     lastName: 'Beernink',
+    //     birthYear: 1992,
+    //     job: 'Full stack developer',
+    //     friends: ['Michael', 'Peter', 'Steven', 'Nita'],
+    //     hasDriversLicense: true,
+
+        //V1
+        // calcAge: function(birthYear){
+        //     return 2025 - birthYear;
+        // }
+
+        //V2
+        // calcAge: function(){
+        //     console.log('This is this: ', this);
+        //     return 2025 - this.birthYear;
+        // }
+
+        //V3
+    //     calcAge: function(){
+    //         this.age = 2025 - this.birthYear;
+    //         return this.age;
+    //     },
+
+    //     getSummary: function(){
+    //         return (`${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} drivers license`)
+    //     }
+    // };
+
+    // console.log(maikel.calcAge());
+    // console.log(maikel.age);
+    // console.log(maikel.age);
+
+    //challenge
+    // "Maikel is a 33-years old programmer. and he has a drivers license."
+    // console.log(maikel.getSummary());
+
+
+    //------------------------//
+    //       Challenge 3      //
+    //------------------------//
+
+    const mark = {
+        firstName: 'Mark',
+        mass: 78,
+        height: 1.69,
+
+        //calc bmi
+    };
+
+    const john = {
+        firstName: 'John',
+        mass: 92,
+        height: 1.95,
+
+        //calc bmi
+    };
+
 
     
