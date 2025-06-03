@@ -467,4 +467,58 @@
     //      The for loop      //
     //------------------------//
 
-    
+    // console.log('Lifting weights repetition 1');
+    // console.log('Lifting weights repetition 2');
+    // console.log('Lifting weights repetition 3');
+    // console.log('Lifting weights repetition 4');
+    // console.log('Lifting weights repetition 5');
+
+    // for (let rep = 1; rep <= 10; rep++){
+    //     console.log(`Lifting weights repitition ${rep}`);
+    // }
+
+    //Looping through an array
+    // const maikel = [
+    //     'Maikel',
+    //     'Beernink',
+    //     2025 - 1992,
+    //     'Full stack developer',
+    //     ['Michael', 'Peter', 'Steven']
+    // ];
+
+    // const types = [];
+
+    // for(let i = 0; i < maikel.length; i++){
+    //     console.log(maikel[i], typeof maikel[i]);
+    //     //types[i] = typeof maikel[i];
+    //     types.push(typeof maikel[i]);
+    // }
+
+    // console.log(types);
+
+    // const years = [1991, 2007, 1969, 2020];
+    // let ages = [];
+
+    // For ages.push(2025 - years[i]); the years[i] part is that it picks every individual element from the array.
+    //If you only use years it would pick the whole array which is in this case not a number! NaN
+    // for(let i = 0; i < years.length; i++){
+    //     ages.push(2025 - years[i]);
+    // }
+
+    // console.log(ages);
+
+    //continue and break
+    //with continue you can exit the current itteration
+    // for(let i = 0; i < maikel.length; i++){
+    //     //This will only log strings to the console.
+    //     if(typeof maikel[i] !== 'string') continue;
+    //     console.log(maikel[i], typeof maikel[i]);
+    // }
+
+    //Break
+    // for(let i = 0; i < maikel.length; i++){
+    //This will only log strings to the console.
+    //     if(typeof maikel[i] === 'number') break;
+
+    //     console.log(maikel[i], typeof maikel[i]);
+    // }
