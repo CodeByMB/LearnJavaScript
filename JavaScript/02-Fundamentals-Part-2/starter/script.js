@@ -522,3 +522,76 @@
 
     //     console.log(maikel[i], typeof maikel[i]);
     // }
+
+    //Loop backwards
+    // const maikel = [
+    //     'Maikel',
+    //     'Beernink',
+    //     2025 - 1992,
+    //     'Full stack developer',
+    //     ['Michael', 'Peter', 'Steven']
+    // ];
+
+    // for(let i = maikel.length - 1; i >= 0; i--){
+    //     console.log(maikel[i]); 
+    // }
+
+    // //A loop within a loop (LOOP CEPTION)
+    // for (let exercise = 1; exercise <= 3; exercise++){
+    //     console.log(`-------- Starting exercise ${exercise} --------`)
+
+    //     for(let rep = 1; rep <= 5; rep++){
+    //         console.log(`Exercise ${exercise} Lifting weights rep ${rep}`);
+    //     }
+    // }
+
+    //------------------------//
+    //     The while loop     //
+    //------------------------//
+
+    // let rep = 1;
+    // while (rep <= 10) {
+    //     console.log(`Lifting wights repetition ${rep}`);
+    //     rep++;
+    // }
+
+    // let dice = Math.trunc(Math.random() * 6) + 1;
+
+    // while(dice !== 6){
+    //     console.log(`Rolling: ${dice}`)
+    //     dice = Math.trunc(Math.random() * 6) + 1;
+    //     if (dice === 6) console.log(`Loop is about the end..`)
+    // }
+
+    //Challange 3
+    // const calcTip = function (bill) {
+    //     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+    // }
+
+    // /* Write your code below. Good luck! 🙂 */
+    // let bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
+    // let tips = []
+    // let totals = []
+
+    // for (let bill = 0; bill <  bills.length; bill++ ) {
+    //     calcTip(bill);
+
+    // }
+
+    // console.log(totals)
+
+    // const calcTip = function (bill) {
+    //     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+    // }
+
+    // const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52] ;
+    // const tips = [];
+    // const totals = [];
+
+    // for (let i = 0; i < bills.length; i++){
+    //     const tip = calcTip(bills[i]);
+    //     tips.push(tip);
+    //     totals.push(tip + bills[i]);
+    // }
+
+    // console.log()
